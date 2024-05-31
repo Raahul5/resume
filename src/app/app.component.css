@@ -1,0 +1,167 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@900&family=Rubik+Mono+One&display=swap");
+.round-img {
+  border-radius: 100%;
+  width: 200px;
+  height: auto;
+}
+
+.text-style {
+  font-family: "Encode Sans SC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "wdth" 125;
+  font-size: 30px;
+
+}
+.name-text {
+  font-family: "Encode Sans SC", sans-serif;
+  font-weight: bolder;
+  font-size: 70px;
+  color: rgb(247, 231, 6);
+  letter-spacing: 10px;
+}
+
+.col-sm-12 {
+  font-size: 10px;
+}
+.head-text {
+  font-family: "Encode Sans SC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "wdth" 255;
+  font-size: 30px;
+  color: rgb(247, 231, 6);
+}
+.head-text2 {
+  font-family: "Encode Sans SC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "wdth" 255;
+  font-size: 30px;
+  color: rgb(247, 231, 6);
+}
+.content-text {
+  font-weight: 400;
+  color: white;
+  font-size: 18px;
+}
+
+.exp-text {
+  font-weight: 400;
+  font-size: 17px;
+  color: white;
+}
+
+.address-text {
+   
+  font-weight: 500;
+  font-size: 13px;
+  color: white;
+}
+.per-text{
+  font-style: italic;
+  font-weight: 300;
+  font-size: small;
+  color: white;
+}
+
+.mobile{
+  display: none;
+}
+@media (max-width: 560px) {
+
+  .stick{
+
+    position: sticky;
+    top:0
+  }
+  .round-img {
+    padding: 9px;
+    border-radius: 100%;
+    width: 90px;
+    height: auto;
+  }
+  
+  .content-text {
+    font-weight: 400;
+
+    font-size: 16px;
+  }
+.head-text{
+  font-weight: 400;
+    font-size: 35px;
+}
+
+.head-text2{
+  font-weight: 800;
+    font-size: 15px;
+}
+  .exp-text {
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .address-text {
+   
+    font-weight: 500;
+    font-size: 13px;
+  }
+
+  .name-text {
+    font-family: "Encode Sans SC", sans-serif;
+    font-size: 50px;
+    letter-spacing: 15px;
+    line-height: normal;
+  }
+
+  .per-text{
+    font-style: italic;
+    
+  }
+  .icn{
+    margin-top: 10px;
+  }
+  .mobile{
+    
+  display: flex;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  }
+  
+}
+
+@media (min-width: 768px) {
+  .layout {
+    display: flex;
+  }
+  .sidebar {
+    flex: 0 0 25%; 
+    display: flex;
+    flex-direction: column;
+  }
+  .main-content {
+    flex: 1;
+  }
+}
+
+.nav_bg{
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+ }
+
+.navbar, .navbar-nav, .nav-item, .nav-link, .span{
+  color: #050002
+}
+.nav_ng3{
+  
+ background-color: black
+}
+
+
+
+
+
